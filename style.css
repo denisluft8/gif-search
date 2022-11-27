@@ -18,6 +18,7 @@ body {
 }
 
 .search {
+    margin: 28px;
     background-color: #fed9dd;
     height: fit-content;
     display: flex;
@@ -69,7 +70,8 @@ body {
 .result {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 8px;
+    justify-content: center;
     align-content: center;
     width: 900px;
 }
@@ -78,5 +80,4 @@ body {
     display: flex;
     height: auto;
     width: 350px;
-    padding-top: 10px;
 }
